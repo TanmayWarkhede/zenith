@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+To use real NASA data (higher rate limits), add your key to .env.local:
+
+NASA_API_KEY=your_key_from_api.nasa.gov
+
 ## Getting Started
 
 First, run the development server:

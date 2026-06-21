@@ -1,0 +1,11 @@
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #050A14; }
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(30,111,255,0.3); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(30,111,255,0.5); }
+input[type=range] { -webkit-appearance: none; appearance: none; background: transparent; }
+input[type=range]::-webkit-slider-track { background: rgba(30,111,255,0.2); height: 4px; border-radius: 2px; }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: #1E6FFF; cursor: pointer; margin-top: -5px; }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.4;transform:scale(0.8)} }
+@keyframes spin { from{transform:rotate(0deg)}to{transform:rotate(360deg)} }
